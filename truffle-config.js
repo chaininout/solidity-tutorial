@@ -3,7 +3,7 @@ const HDWalletProvider = require("@truffle/hdwallet-provider");
 module.exports = {
   compilers: {
     solc: {
-      version: "0.6.11",
+      version: "0.6.12",
       settings: {
         optimizer: {
           enabled: false,
@@ -20,6 +20,7 @@ module.exports = {
     },
     mainnet: infuraProvider("mainnet", 1),
     ropsten: infuraProvider("ropsten", 3),
+    kovan: infuraProvider("kovan", 42),
   },
   mocha: {
     timeout: 10000,

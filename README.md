@@ -65,6 +65,12 @@ First, make sure you have your mnemonic (BIP39 recovery phrase) and an
 $ MNEMONIC="your mnemonic" INFURA_API_KEY="yourAPIKey" truffle deploy --network=ropsten
 ```
 
+实际的部署合约命令：
+
+```
+MNEMONIC="viable glow tone pole input series weather slam blouse embark achieve position" INFURA_API_KEY="c844845b06f84d379ba3fb3bba5a1f99" truffle deploy --network=kovan
+```
+
 ---
 
 MIT License
